@@ -4,7 +4,7 @@ Import-Module SQLPS
 # CONFIGURATION
 $serverInstance = "WSAMZN-KF9MQ2K4\PHDWIN"  # Change to your SQL Server instance
 $backupRoot = "C:\Program Files\Microsoft SQL Server\MSSQL15.PHDWIN\MSSQL\Backup"             # Local backup folder
-$gDriveSyncFolder = "D:\Users\ayers_petroleum\SQLServerBackups"  # Synced Google Drive folder
+$gDriveSyncFolder = "D:\Users\ayers_petroleum\Documents\SQLServerBackups"  # Synced Google Drive folder
 # Timestamp for backup filenames
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 
